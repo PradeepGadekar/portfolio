@@ -1,0 +1,572 @@
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html> -->
+
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep Gadekar's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+
+<body>
+    <!-- Scroll Button start -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-double-up"></i>
+    </div>
+    <!-- Scroll Button end -->
+    <!-- Navbar Start-->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="#">Deep<span style="color: 00FFFF;">code.</span>
+                </a>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#home" class="menu-btn">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="menu-btn">About</a>
+                </li>
+                <li>
+                    <a href="#skills" class="menu-btn">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects" class="menu-btn">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="menu-btn">Contact</a>
+                </li>
+                <li onclick="openURL()">
+                    <a class="menu-btn">Resume</a>
+                </li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Home Section Start -->
+    <section class="home section" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello 👋 I'm</div>
+                <div class="text-2">Pradeep Gadekar</div>
+                <div class="text-3">I am a Full-Stack Developer <span class="typing"></span>
+
+                </div>
+                <a class="web" href="#contact">I need a website <i class="fad fa-angle-right"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/pradeep-gadekar-2084601a7/" target="_blank" rel="noreferrer">I'm
+                    looking to hire <i class="fad fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Home Section End -->
+    <!-- About section start -->
+    <section class="about myTheme_background section" id="about">
+        <div class="max-width">
+            <h2 class="title fadein">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./images/pradeep.JPG" alt="Pradeep">
+                    <div>
+                        <div class="wrapper">
+                            <div class="button1">
+                                <div class="icon">
+                                    <a href="https://www.linkedin.com/in/pradeep-gadekar-2084601a7/" target="_blank"
+                                        rel="noreferrer">
+                                        <i class="fab fa-linkedin"></i>
+                                </div>
+                                <span>LinkedIn </a>
+                                </span>
+                            </div>
+                            <div class="buttonmob">
+                                <div class="button1">
+                                    <div class="icon">
+                                        <a href="https://twitter.com/chetannada" target="_blank" rel="noreferrer">
+                                            <i class="fab fa-twitter"></i>
+                                    </div>
+                                    <span>Twitter </a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="buttonmob1"></div>
+                            <div class="button1">
+                                <div class="icon">
+                                    <a href="https://github.com/PradeepGadekar" target="_blank" rel="noreferrer">
+                                        <i class="fab fa-github"></i>
+                                </div>
+                                <span>Github </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">I'm a Pradeep and <span class="break">I'm a <span class="typing2"></span>
+                        </span>
+                    </div>
+                    <p>I am a dedicated front-end developer focused on creating attractive and user-friendly websites. I
+                        am passionate about translating design concepts into interactive digital experiences and
+                        continuously improving my skill set to stay updated with the latest industry trends. My
+                        portfolio showcases a variety of projects that demonstrate my ability to deliver responsive and
+                        dynamic web applications.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section End -->
+    <!-- Skills section start -->
+    <section class="skills section" id="skills">
+        <div class="max-width">
+            <h2 class="title fadein">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences</div>
+                    <p>
+                        As a passionate and detail-oriented Frontend Developer, I thrive on turning ideas into impactful
+                        digital experiences. I excel in estimating project tasks, collaborating with clients to refine
+                        feedback, and delivering results that exceed expectations. A self-motivated fast learner, I am
+                        dedicated to staying ahead of the curve by mastering cutting-edge tools and frameworks in
+                        front-end development.
+
+                        My expertise spans an extensive range of technologies, including JavaScript, React.js, Next.js,
+                        Angular, TypeScript, Redux Toolkit, HTML5, CSS3, TailwindCSS, Bootstrap, SASS, Material UI, and
+                        more. From building intuitive UIs with React Hook Form to creating data visualizations with
+                        ApexChart and ReChart, I bring both creativity and technical precision to every project.
+
+                        Equipped with a strong command of modern tools such as visual studio, Node.js, REST API, Git, Jira
+                        and postman, I ensure efficient and high-quality software development. Beyond coding, I
+                        harness tools like Figma and Adobe Photoshop to enhance user experience and bridge the gap
+                        between design and development.
+
+                        Driven by a deep curiosity and commitment to excellence, I am always seeking opportunities to
+                        grow and contribute to innovative projects in today’s rapidly evolving tech landscape.</p>
+                </div>
+                <div class="column right">
+                    <div class="info" style="width: 70%;">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
+                            rel="noreferrer">
+                            <img src="./images/javascript.png" alt="javascript" width="80" />
+                        </a>
+                        <a href="https://angular.io/" target="_blank" rel="noreferrer">
+                            <img src="./images/angular.png" alt="figma" width="80">
+                        </a>
+                        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+                            <img src="./images/react.png" alt="react.js" width="80" />
+                        </a>
+                        <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+                            <img src="./images/nextjs.png" alt="next.js" width="80" />
+                        </a>
+                        <a href="https://mui.com/material-ui/getting-started/" target="_blank" rel="noreferrer">
+                            <img src="./images/MUI-Icon.png" alt="MUI Material" width="80" />
+                        </a>
+                        <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
+                            <img src="./images/typescript.png" alt="typeScript" width="80" />
+                        </a>
+                        <a href="https://redux.js.org" target="_blank" rel="noreferrer">
+                            <img src="./images/redux.png" alt="redux" width="80" />
+                        </a>
+                        <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+                            <img src="./images/node-js.png" alt="nodejs" width="80" />
+                        </a>
+                        <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+                            <img src="./images/html5.png" alt="html5" width="80" />
+                        </a>
+                        <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+                            <img src="./images/css3.png" alt="css3" width="80" />
+                        </a>
+                        <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+                            <img src="./images/bootstrap.png" alt="bootstrap" width="80" />
+                        </a>
+                        <a href="https://sass-lang.com" target="_blank" rel="noreferrer">
+                            <img src="./images/sass.png" alt="sass" width="80" />
+                        </a>
+                        <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+                            <img src="./images/tailwind-css.png" alt="react" width="80" />
+                        </a>
+                        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+                            <img src="./images/mongodb.png" alt="MongoDB" width="80" />
+                        </a>
+                        <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+                            <img src="./images/git.png" alt="git" width="80" />
+                        </a>
+                        <a href="https://www.postman.com/" target="_blank" rel="noreferrer">
+                            <img src="./images/postman.png" alt="postman" width="80" />
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills section end -->
+    <!-- Project section start -->
+    <section class="projects myTheme_background section" id="projects">
+        <div class="max-width">
+            <h2 class="title fadein">My Projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <a href="javascript:void(0);" target="_blank" rel="noreferrer" title="Food Fire App">
+                        <div class="box">
+                            <img src="./images/provider.png" alt="Food Fire App">
+
+                        </div>
+                    </a>
+                    <a href="javascript:void(0);" target="_blank" rel="noreferrer"
+                        title="FoodFire App Github Repository">
+                        <p>Provider portal</p>
+                    </a>
+
+                    <p>Angular, paython</p>
+
+                </div>
+                <div class="card">
+                    <a href="javascript:void(0);" target="_blank" rel="noreferrer"
+                        title="User Dashboard Panel">
+                        <div class="box">
+                            <img src="./images/alfred.png" alt="User Dashboard Panel">
+
+                        </div>
+                    </a>
+                    <a href="javascript:void(0);" target="_blank" rel="noreferrer"
+                        title="User Dashboard Panel Github Repository">
+                        <p>Alfred Claim Portal</p>
+                    </a>
+
+                    <p>Angular, paython</p>
+                </div>
+                <div class="card">
+                    <a href="javascript:void(0);" target="_blank" rel="noreferrer"
+                        title="Counter App">
+                        <div class="box">
+                            <img src="./images/paciolo.png" alt="Counter App">
+
+                        </div>
+                    </a>
+                    <a href="javascript:void(0);" target="_blank" rel="noreferrer"
+                        title="Counter App Github Repository">
+                        <p>Paciolo (Finance CRM)</p>
+                    </a>
+
+                    <p>Angular, node.js, aws</p>
+                </div>
+                <div class="card">
+                    <a href="javascript:void(0);" target="_blank" rel="noreferrer"
+                        title="Counter App">
+                        <div class="box">
+                            <img src="./images/ripple.png" alt="Counter App">
+
+                        </div>
+                    </a>
+                    <a href="javascript:void(0);" target="_blank" rel="noreferrer"
+                        title="Counter App Github Repository">
+                        <p>Ripple (CRM)</p>
+                    </a>
+
+                    <p>Angular, node.js, aws</p>
+                </div>
+                <div class="card">
+                    <a href="javascript:void(0);" target="_blank" rel="noreferrer"
+                        title="Counter App">
+                        <div class="box">
+                            <img src="./images/examportal.jpeg" alt="Counter App">
+
+                        </div>
+                    </a>
+                    <a href="javascript:void(0);" target="_blank" rel="noreferrer"
+                        title="Counter App Github Repository">
+                        <p>Exam Portal</p>
+                    </a>
+
+                    <p>Angular, node.js</p>
+                </div>
+                <div class="card">
+                    <a href="javascript:void(0);" target="_blank" rel="noreferrer"
+                        title="Counter App">
+                        <div class="box">
+                            <img src="./images/castler.png" alt="Counter App">
+
+                        </div>
+                    </a>
+                    <a href="javascript:void(0);" target="_blank" rel="noreferrer"
+                        title="Counter App Github Repository">
+                        <p>Casterl (socity development Portal)</p>
+                    </a>
+
+                    <p>Angular, node.js</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Project section end -->
+    <!-- Contact section start -->
+    <section class="contact section" id="contact">
+        <div class="max-width">
+            <h2 class="title fadein">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Reach Out to me!</div>
+                    <p>Discuss a Project or just want to say Hi? My inbox is open for all.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Pradeep Gadekar</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Indore, India</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope email-icon"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">
+                                    <a href="mailto:pradeepgadekar6669@gmail.com" target="_blank">pradeepgadekar6669@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text1">Stay Connected</div>
+                    <div>
+                        <div class="wrapper">
+                            <div class="button1">
+                                <div class="icon">
+                                    <a href="https://www.linkedin.com/in/pradeep-gadekar-2084601a7/" target="_blank"
+                                        rel="noreferrer">
+                                        <i class="fab fa-linkedin"></i>
+                                </div>
+                                <span>LinkedIn </a>
+                                </span>
+                            </div>
+                            <div class="buttonmob">
+                                <div class="button1">
+                                    <div class="icon">
+                                        <a href="https://twitter.com/chetannada" target="_blank" rel="noreferrer">
+                                            <i class="fab fa-twitter"></i>
+                                    </div>
+                                    <span>Twitter </a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="buttonmob1"></div>
+                            <div class="button1">
+                                <div class="icon">
+                                    <a href="https://github.com/PradeepGadekar" target="_blank" rel="noreferrer">
+                                        <i class="fab fa-github"></i>
+                                </div>
+                                <span>Github </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Describe Project..." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send Message <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section end -->
+    <!-- footer section start -->
+    <footer class="skills">
+        <span>Created By <a href="https://www.linkedin.com/in/pradeep-gadekar-2084601a7/" target="_blank"
+                rel="noreferrer">Pradeep Gadekar</a> | <span class="far fa-copyright"></span> <span id="year"></span>
+            All rights reserved </span>
+    </footer>
+    <!-- footer section end -->
+    <!-- External Javascript File start-->
+    <script src="script.js" async></script>
+    <!-- External Javascript File end-->
+</body>
+
+<div id="container3D"></div>
+<script type="module">
+    import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.121.1/build/three.module.js";
+    import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.121.1/examples/jsm/loaders/GLTFLoader.js";
+    import { gsap } from 'https://cdn.skypack.dev/gsap';
+
+    // Your 3D rendering code
+    const camera = new THREE.PerspectiveCamera(10, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.z = 13;
+    // camera.position.y = -1;
+    // camera.position.x = 0;
+
+    const scene = new THREE.Scene();
+    let bee;
+    let mixer;
+
+    const loader = new GLTFLoader();
+    loader.load(
+        "./images/model2.glb",
+        function (gltf) {
+            const model = gltf.scene;
+            bee = gltf.scene;
+            model.scale.set(7, 7, 7);
+            // bee.position.x=0.7;
+            // bee.position.y=-0.4;
+            // bee.position.z=3;
+            // bee.rotation.y = Math.PI / 1;
+            // bee.rotation.x = Math.PI / 1;
+            scene.add(bee);
+            mixer = new THREE.AnimationMixer(bee);
+            mixer.clipAction(gltf.animations[0]).play();
+            modelMove();
+        },
+        function (xhr) {
+            console.log((xhr.loaded / xhr.total) * 100 + "% loaded");
+        },
+        function (error) {
+            console.error(error);
+        }
+    );
+
+    const renderer = new THREE.WebGLRenderer({ alpha: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.getElementById("container3D").appendChild(renderer.domElement);
+
+    // Lighting
+    const ambientLight = new THREE.AmbientLight(0xffffff, 2);
+    scene.add(ambientLight);
+
+    const topLight = new THREE.DirectionalLight(0xffffff, 1);
+    topLight.position.set(500, 500, 500);
+    scene.add(topLight);
+
+    // Animation loop
+    const reRender3D = () => {
+        requestAnimationFrame(reRender3D);
+        if (bee) {
+            bee.rotation.y += 0.01;  // Rotate the model
+        }
+        renderer.render(scene, camera);
+        if (mixer) mixer.update(0.02);
+    };
+    reRender3D();
+
+    let arrPositionModel = [
+        {
+            id: 'home',
+            position: { x: 0.7, y: -0.4, z: 3 },
+            rotation: { x: 0, y: 1.5, z: 0 }
+        },
+        {
+            id: "about",
+            position: { x: -1.5, y: -0.2, z: 0 },
+            rotation: { x: 0, y: 0.5, z: 0 },
+        },
+        {
+            id: "skills",
+            position: { x: 1.6, y: -0.4, z: -0.3 },
+            rotation: { x: 0.2, y: 0.1, z: 0.2 },
+        },
+        {
+            id: "projects",
+            position: { x: -1.5, y: 0.5, z: 0 },
+            rotation: { x: 0, y: 1, z: 0 },
+        },
+        // {
+        //     id: "contact",
+        //     position: { x: 1.6, y: -0.4, z: -0.3 },
+        //     rotation: { x: 0.2, y: 0.1, z: 0.2 },
+        // },
+    ];
+
+    const modelMove = () => {
+
+        const sections = document.querySelectorAll('.section');
+        let currentSection;
+        sections.forEach((section) => {
+            const rect = section.getBoundingClientRect();
+            if (rect.top <= window.innerHeight / 3) {
+                currentSection = section.id;
+            }
+        });
+        let position_active = arrPositionModel.findIndex(
+            (val) => val.id == currentSection
+        );
+        if (position_active >= 0) {
+            let new_coordinates = arrPositionModel[position_active];
+            gsap.to(bee.position, {
+                x: new_coordinates.position.x,
+                y: new_coordinates.position.y,
+                z: new_coordinates.position.z,
+                duration: 3,
+                ease: "power1.out"
+            });
+            gsap.to(bee.rotation, {
+                x: new_coordinates.rotation.x,
+                y: new_coordinates.rotation.y,
+                z: new_coordinates.rotation.z,
+                duration: 3,
+                ease: "power1.out"
+            })
+        }
+    }
+    window.addEventListener('scroll', () => {
+        if (bee) {
+            modelMove();
+        }
+    })
+    window.addEventListener('resize', () => {
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+    })
+</script>
+
+</html>
